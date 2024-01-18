@@ -2,6 +2,8 @@
 BoldIntense=true
 ColorScheme=Sweet-Ambar-Blue
 Font=UbuntuMono Nerd Font Mono,13,-1,5,50,0,0,0,0,0
+TabColor=255,255,255
+WordModeBrahmic=false
 
 [Cursor Options]
 CursorShape=0
