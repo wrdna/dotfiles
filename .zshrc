@@ -61,3 +61,7 @@ unset __conda_setup
 # config config --local status.showUntrackedFiles no
 # echo "alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
 alias config='/usr/bin/git --git-dir=/home/andrew/.dotfiles/ --work-tree=/home/andrew'
+
+# Flutter env setup
+export PATH="$PATH:$HOME/dev/webdev/flutter/bin"
+export CHROME_EXECUTABLE="$HOME/dev/webdev/chrome-linux64/chrome"
