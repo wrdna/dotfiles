@@ -8,7 +8,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- empty setup using defaults
-require("nvim-tree").setup()
+-- require("nvim-tree").setup()
 
 -- OR setup with some options
 require("nvim-tree").setup({
@@ -18,6 +18,18 @@ require("nvim-tree").setup({
 	view = {
         width = 30,
         side = "right",
+        float = {
+            enable = true,
+            quit_on_focus_loss = true,
+            open_win_config = {
+                relative = "editor",
+                border = "rounded",
+                width = 30,
+                height = 30,
+                row = 1,
+                col = 1,
+            },
+        },
     },
     renderer = {
 		group_empty = true,

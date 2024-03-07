@@ -61,6 +61,8 @@ unset __conda_setup
 # config config --local status.showUntrackedFiles no
 # echo "alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
 alias config='/usr/bin/git --git-dir=/home/andrew/.dotfiles/ --work-tree=/home/andrew'
+alias nvimcfg='nvim $HOME/.config/nvim'
+
 
 # Flutter env setup
 export PATH="$PATH:$HOME/dev/webdev/flutter/bin"
