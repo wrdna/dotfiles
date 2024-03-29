@@ -96,4 +96,5 @@ Description=Sweet-Ambar-Blue
 FillStyle=Tile
 Opacity=0.85
 Wallpaper=
+WallpaperFlipType=NoFlip
 WallpaperOpacity=1
