@@ -67,3 +67,8 @@ alias nvimcfg='nvim $HOME/.config/nvim'
 # Flutter env setup
 export PATH="$PATH:$HOME/dev/webdev/flutter/bin"
 export CHROME_EXECUTABLE="$HOME/dev/webdev/chrome-linux64/chrome"
+
+# git autocompletion is slow..
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
