@@ -15,11 +15,16 @@ require("nvim-tree").setup({
 	sort = {
 		sorter = "case_sensitive",
 	},
+    actions = {
+        open_file = {
+        quit_on_open = true,
+        }
+    },
 	view = {
         width = 30,
         side = "right",
         float = {
-            enable = true,
+            enable = false,
             quit_on_focus_loss = true,
             open_win_config = {
                 relative = "editor",
