@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or "onedark"
+	color = color or "tokyonight"
 
 	if color == "tokyonight" then
 		SetConfig_tokyonight()
