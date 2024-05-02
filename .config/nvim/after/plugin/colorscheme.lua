@@ -1,19 +1,19 @@
-function ColorMyPencils(color)
+function Colorscheme(color)
 	color = color or "tokyonight"
 
 	if color == "tokyonight" then
-		SetConfig_tokyonight()
-	end
-
-	if color == "onedark" then
-		SetConfig_onedark()
+		Color_tokyonight()
+    elseif color == "onedark" then
+		Color_onedark()
 	end
 
     vim.cmd.colorscheme(color)
 
 end
 
-function SetConfig_onedark()
+-- Colorscheme functions
+
+function Color_onedark()
     -- Lua
     require('onedark').setup {
         style = 'darker'
@@ -21,7 +21,7 @@ function SetConfig_onedark()
     require('onedark').load()
 end
 
-function SetConfig_tokyonight()
+function Color_tokyonight()
 	require("tokyonight").setup({
 		-- your configuration comes here
 		-- or leave it empty to use the default settings
@@ -57,4 +57,4 @@ function SetConfig_tokyonight()
 	})
 end
 
-ColorMyPencils()
+Colorscheme()
