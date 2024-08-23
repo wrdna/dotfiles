@@ -12,7 +12,7 @@ USE_POWERLINE="true"
 #    is not a diamond
 HAS_WIDECHARS="false"
 
-# Source manjaro-zsh-configuration
+# Source zsh-config
 if [[ -e $HOME/.zsh/zsh-config ]]; then
   source $HOME/.zsh/zsh-config
 fi
