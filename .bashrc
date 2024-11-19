@@ -27,3 +27,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 alias config='/usr/bin/git --git-dir=/home/andrew/.dotfiles/ --work-tree=/home/andrew'
+. "$HOME/.cargo/env"

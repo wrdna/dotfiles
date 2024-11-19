@@ -11,7 +11,7 @@ require('mason-lspconfig').setup({
     ensure_installed = {
         'clangd',
 	    'pyright',
-	    'tsserver',
+	    'ts_ls',
 	    'lua_ls',
 	},
     handlers = {

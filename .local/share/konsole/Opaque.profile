@@ -1,7 +1,7 @@
 [Appearance]
 BoldIntense=true
 ColorScheme=Sweet-Ambar-Blue
-Font=UbuntuMono Nerd Font Mono,12,-1,5,50,0,0,0,0,0
+Font=UbuntuMono Nerd Font Mono,20,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=255,255,255
 WordModeBrahmic=false
 
