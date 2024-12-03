@@ -26,6 +26,9 @@ if hardmode then
     --vim.api.nvim_set_keymap('n', '<BS>', msg, { noremap = true, silent = false })
 end
 
+-- vim.keymap.set("o", "iq", 'i"')
+
+
 -- Exiting
 vim.keymap.set("n", "<leader>pv", vim.cmd.q)
 

@@ -2,6 +2,9 @@ vim.opt.nu = true
 
 vim.wo.relativenumber = true
 
+vim.opt.cursorline = true
+vim.opt.cursorcolumn = true
+
 vim.opt.clipboard = "unnamedplus"
 
 vim.opt.tabstop = 4
